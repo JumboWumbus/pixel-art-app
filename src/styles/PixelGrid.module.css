@@ -1,0 +1,17 @@
+.grid {
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  display: grid;
+  grid-template: repeat(15, 1fr) / repeat(15, 1fr);
+  border: 2px solid black;
+  box-shadow: 2px 2px 0 0 black;
+}
+
+.cell {
+  cursor: pointer;
+  border: 1px dotted #b3b3b3;
+
+  background: white;
+  transition: all 200ms ease-in-out;
+}
